@@ -40,9 +40,9 @@ Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch
 
 🇬🇧 Additional functionality:
 The inventory scene has several functions for interacting with the inventory programmatically.
-| Function || Effect |
-| :---: || --- |
-| `add_item(itemID, ammount, item_texture)` | | Adds an item with an itemID, a quantity, and a texture to the inventory |
-| `remove_item(itemID, ammound)` | | Iterates through all items and removes the specified quantity from the item with this itemID |
-| `delete_item(itemID)` | | Removes all items with this itemID |
-| `has_enough_of(itemID, needed_ammount)` | | Checks whether at least a certain quantity of a specified item is present and returns a bool |
+| Function | Effect |
+| :---: | --- |
+| `add_item(itemID, ammount, item_texture)` | Adds an item with an itemID, a quantity, and a texture to the inventory |
+| `remove_item(itemID, ammound)` | Iterates through all items and removes the specified quantity from the item with this itemID |
+| `delete_item(itemID)` | Removes all items with this itemID |
+| `has_enough_of(itemID, needed_ammount)` | Checks whether at least a certain quantity of a specified item is present and returns a bool |
