@@ -8,14 +8,18 @@
 6. Um nun items zu erstellen, musst du die Pickup-Szene in dein Level ziehen, du findest sie unter: res://addons/einfachesinventarsystem/pickup.tscn
 7. Deinem Item gibst du eine Textur, die Anzahl dieses Items die durch das Aufnehmen dieses Pickups hinzugefügt wird und die itemID, welche ein Item klar identifizieren soll
 
+
+
 🇩🇪 Zusätzliche Funktionen:
 Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch zu interagieren.
-| Funktion || Effekt |
-| :---: || --- |
-| `add_item(itemID, ammount, item_texture)` | | fügt ein item mit einer itemID, einer Anzahl und einer Textur dem inventar hinzu |
-| `remove_item(itemID, ammound)` | | geht durch alle items und entfernt die spezifizierte Anzahl von dem item mit dieser itemID |
-| `delete_item(itemID)` | | entfernt alle Items mit dieser itemID |
-| `has_enough_of(itemID, needed_ammount)` | | überprüft ob von einem spezifizierten Item mindestens eine gewisse anzahl vorhanden ist und gibt einen bool zurück |
+| Funktion | Effekt |
+| :---: | --- |
+| `add_item(itemID, ammount, item_texture)` | fügt ein item mit einer itemID, einer Anzahl und einer Textur dem inventar hinzu |
+| `remove_item(itemID, ammound)` | geht durch alle items und entfernt die spezifizierte Anzahl von dem item mit dieser itemID |
+| `delete_item(itemID)` | entfernt alle Items mit dieser itemID |
+| `has_enough_of(itemID, needed_ammount)` | überprüft ob von einem spezifizierten Item mindestens eine gewisse anzahl vorhanden ist und gibt einen bool zurück |
+
+
 
 
 🇬🇧 Installation and setup:
@@ -27,6 +31,8 @@ Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch
 5. Later, you can check what should happen there (e.g., if an item with itemID 4 was used, then...)
 6. To create items, you need to drag the pickup scene into your level. You can find it at: res://addons/einfachesinventarsystem/pickup.tscn
 7. You give your item a texture, the quantity of this item that will be added by picking up this pickup, and the itemID, which should clearly identify an item.
+
+
 
 🇬🇧 Additional functionality:
 The inventory scene has several functions for interacting with the inventory programmatically.
