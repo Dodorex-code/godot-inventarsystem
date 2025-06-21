@@ -9,10 +9,13 @@
 5. Später kannst du dort überprüfen was passieren soll (z.B. wenn item mit itemID 4 genutzt wurde, dann ...)
 6. Um nun items zu erstellen, musst du die Pickup-Szene in dein Level ziehen, du findest sie unter: res://addons/einfachesinventarsystem/pickup.tscn
 7. Deinem Item gibst du eine Textur, die Anzahl dieses Items die durch das Aufnehmen dieses Pickups hinzugefügt wird und die itemID, welche ein Item klar identifizieren soll
+8. Mit "I" kannst du das Inventar im Spiel öffnen und schließen (ist es leer, sieht du natürlich nichts)
 
 
 
 🇩🇪 Zusätzliche Funktionen:
+
+
 Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch zu interagieren.
 | Funktion | Effekt |
 | :---: | --- |
@@ -35,10 +38,13 @@ Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch
 5. Later, you can check what should happen there (e.g., if an item with itemID 4 was used, then...)
 6. To create items, you need to drag the pickup scene into your level. You can find it at: res://addons/einfachesinventarsystem/pickup.tscn
 7. You give your item a texture, the quantity of this item that will be added by picking up this pickup, and the itemID, which should clearly identify an item.
+8. With "I" you can open and close the inventory in the game (if it is empty, you will of course see nothing)
 
 
 
 🇬🇧 Additional functionality:
+
+
 The inventory scene has several functions for interacting with the inventory programmatically.
 | Function | Effect |
 | :---: | --- |
