@@ -1,4 +1,6 @@
 🇩🇪 Installation und Setup:
+
+
 0. Vorraussetzung: Du hast bereits ein Godot Projekt mit einem Spieler
 1. lade die zip-Datei herunter und extrahiere ihren inhalt in den "addons"-Ordner in deinem Godot Projekt (hast du noch keinen, so erstellen einen Ordner mit dem namen "addons")
 2. Unter Projekt -> Projekteinstellungen -> Plugins musst du "EinfachesInventarsystem" aktivieren
@@ -23,6 +25,8 @@ Die Inventar Szene hat einige Funktionen um mit dem Inventar auch programmatisch
 
 
 🇬🇧 Installation and setup:
+
+
 0. Prerequisite: You already have a Godot project with a player.
 1. Download the zip file and extract its contents into the "addons" folder in your Godot project (if you don't have one, create a folder named "addons").
 2. Under Project -> Project Settings -> Plugins, you must enable "EinfachesInventarsystem"
