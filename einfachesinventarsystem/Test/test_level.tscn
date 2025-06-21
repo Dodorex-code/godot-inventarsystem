@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://do6x4b50k5r3s"]
+
+[ext_resource type="PackedScene" uid="uid://bfhtswdr4xohj" path="res://addons/einfachesinventarsystem/Test/test_spieler.tscn" id="1_gojnm"]
+[ext_resource type="PackedScene" uid="uid://dqfasvvd53k20" path="res://addons/einfachesinventarsystem/pickup.tscn" id="3_4ptq8"]
+[ext_resource type="Texture2D" uid="uid://bth3k4s6qyutk" path="res://addons/einfachesinventarsystem/Test/testItem01.png" id="4_sb12i"]
+[ext_resource type="Texture2D" uid="uid://cxp3wixmelivg" path="res://addons/einfachesinventarsystem/Test/testItem02.png" id="5_sb12i"]
+[ext_resource type="Texture2D" uid="uid://ckjvyfdv8bc1x" path="res://addons/einfachesinventarsystem/Test/testItem03.png" id="6_gbhdq"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_v68af"]
+
+[node name="TestLevel" type="Node2D"]
+
+[node name="TestSpieler" parent="." instance=ExtResource("1_gojnm")]
+position = Vector2(488, 197)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(488, 243)
+shape = SubResource("WorldBoundaryShape2D_v68af")
+
+[node name="Pickup" parent="." instance=ExtResource("3_4ptq8")]
+position = Vector2(399, 210)
+ItemTextur = ExtResource("4_sb12i")
+
+[node name="Pickup4" parent="." instance=ExtResource("3_4ptq8")]
+position = Vector2(642, 220)
+ItemTextur = ExtResource("4_sb12i")
+Anzahl = 3
+
+[node name="Pickup2" parent="." instance=ExtResource("3_4ptq8")]
+position = Vector2(565, 221)
+ItemID = 1
+ItemTextur = ExtResource("5_sb12i")
+Anzahl = 2
+
+[node name="Pickup3" parent="." instance=ExtResource("3_4ptq8")]
+position = Vector2(336, 221)
+ItemID = 2
+ItemTextur = ExtResource("6_gbhdq")
+Anzahl = 3
